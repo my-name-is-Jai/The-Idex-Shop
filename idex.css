@@ -1,1 +1,22 @@
+body {
+    background: linear-gradient(to right, #3987b1 0%, #15ff00 100%);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
 
+.shopnow {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #3987b1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.shopnow:hover {
+    background-color: #f0f0f0;
+}
