@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show Now</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <title>The Idex Shop</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="counterButton">items</button>
+    <span id="countDisplay">0</span>
+    <script>
+      let count = 0;
+      const button = document.getElementById("counterButton");
+      const display = document.getElementById("countDisplay");
+
+      button.addEventListener("click", function () {
+        count++; // Increment the count
+        display.textContent = count; // Update the display
+      });
+    </script>
+
     <h2>Welcome to the Shop Now Page!</h2>
     <p>Here you can find all our amazing products. Start shopping now!</p>
-    <p>We also offer a pencil subsciption so you get a pencil every 2 weeks and we also offer a premium version where you get a mechanical pencil and get 1 stick of lead a week. We also have insurence so if you lose a pencil you get it back. It costs $1 a month.</p>
-    <img src="pictures/sdx33312-removebg-preview.png" alt="pencils" height="150">
-    <img src="pictures/Pens-removebg-preview.png" alt="pens" height="100">
-    <img src="pictures/candy-removebg-preview.png" alt="candy" height="150">
-    <img src="pictures/3d-prints.jpeg" alt="3d prints" height="150">
-    <img src="pictures/Custom_items-removebg-preview.png" alt="custom items" height="150">
-</body>
+    <p>
+      We also offer a pencil subsciption so you get a pencil every 2 weeks and
+      we also offer a premium version where you get a mechanical pencil and get
+      1 stick of lead a week. We also have insurence so if you lose a pencil you
+      get it back. It costs $1 a month.
+    </p>
+    <img
+      src="pictures/sdx33312-removebg-preview.png"
+      alt="pencils"
+      height="150"
+    />
+    <img src="pictures/Pens-removebg-preview.png" alt="pens" height="100" />
+    <img src="pictures/candy-removebg-preview.png" alt="candy" height="150" />
+    <img src="pictures/3d-prints.jpeg" alt="3d prints" height="150" />
+    <img
+      src="pictures/Custom_items-removebg-preview.png"
+      alt="custom items"
+      height="150"
+    />
+  </body>
 </html>
